@@ -1,0 +1,130 @@
+/** floating is usuallyed used for an image where the text wraps around it **/
+
+html {
+background-color:#EFEAC5;
+max-width: 700px;
+padding: 10px;
+margin: 10px;
+}
+
+img.displayed {
+margin: 10px;
+padding:5px;
+}
+
+
+ul#nav 
+{ margin:10px; 
+padding:5px; 
+list-style-type:none; 
+}
+
+a {
+display:block;
+width: 283px;
+
+}
+ul#nav li /**the whole nav bar **/
+{
+width: 272px;
+height: 20px;
+border-top:4px solid #49A69C;
+ margin-right: 15px;
+ padding-right: 20px; 
+ padding-top: 5px;
+ }
+
+ul#nav .current 
+{ border-top:4px solid #E89063 /**orange**/;
+} /**current page **/
+
+ul#nav li:hover 
+{ border-top:4px solid #BF5656;} /**controls the upper bar when hover over**/
+
+ul#nav li a 
+{ padding:2px 2px;
+ text-decoration:none; 
+ font:12px "Carrois Gothic SC", sans-serif; 
+ color:#49A69C;
+ } /**styles the fonts**/
+
+ul#nav li a:hover 
+{ color:#656F8C; 
+border:none;
+} /** controls color change of words **/
+
+/**start of index page tweaks **/
+div#content { /**whole area for work**/
+position: absolute;
+left: 350px;
+top: 30px;
+}
+
+h1#title{
+color: #BF5656;
+font-size: 40px;
+font-family: "Carrois Gothic SC", sans-serif;
+}
+
+p.one{
+width: 700px;
+color: #49A69C;
+font-family: "Basic", sans-serif;
+}
+
+h6 {
+color: #E89063;
+font-size:15px;
+font-family: "Basic", sans-serif;
+}
+
+/** end of index page settings **/
+
+/** start of about page **/
+
+h3 {
+font-family: "Carrois Gothic SC", sans-serif;
+color: #E89063;
+}
+
+p.caption {
+font-size: 12px;
+font-family: "Basic", sans-serif;
+color: #BF5656;
+align: center;
+}
+
+ol {
+font-family: "Basic", sans-serif;
+color: #BF5656;
+font-size: 15 px;
+}
+
+img.map {
+float: right;
+width: 568px;
+height:414px;
+margin: 10px;
+}
+
+img.two {
+float: right;
+margin: 5px;
+}
+
+h5 {
+color:#EFEAC5;
+font-size:20px;
+}
+
+h4 {
+color:#BF5656;
+Font-size: 20px;
+margin: 1px;
+height: 10px;
+padding: 2px;
+}
+
+br {
+height: 20px;
+}
